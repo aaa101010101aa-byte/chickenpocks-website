@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+#container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#riddle-container {
+    font-size: 1.5rem;
+}
+
+#answer-input {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+
